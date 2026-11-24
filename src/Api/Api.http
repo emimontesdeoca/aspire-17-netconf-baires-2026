@@ -1,0 +1,13 @@
+@Api_HostAddress = http://localhost:8080
+
+### Obtener información (primera llamada: PostgreSQL)
+GET {{Api_HostAddress}}/database-info
+Accept: application/json
+
+###
+
+### Obtener información (segunda llamada: Redis)
+GET {{Api_HostAddress}}/database-info
+Accept: application/json
+
+###

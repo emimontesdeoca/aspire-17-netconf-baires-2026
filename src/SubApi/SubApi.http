@@ -1,0 +1,7 @@
+@SubApi_HostAddress = http://localhost:8081
+
+### Consultar PostgreSQL directamente
+GET {{SubApi_HostAddress}}/database-info
+Accept: application/json
+
+###
